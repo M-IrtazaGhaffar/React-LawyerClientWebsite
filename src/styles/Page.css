@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Inter&family=Kalam:wght@300&family=Lato&family=Lobster&family=Macondo&family=Oswald&family=Poppins:ital,wght@0,100;0,400;1,900&family=Roboto&family=Satisfy&family=Ubuntu&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.page {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.page .page-head {
+    -webkit-clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/Head-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page .page-logo {
+    width: 100%;
+    position: absolute;
+    top: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.page .page-logo img {
+    border-radius: 100%;
+    width: 200px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 5px 15px 0px;
+}
+
+.page .page-heading {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.page .page-heading h2 {
+    font-size: 50px;
+}
+
+.page .page-heading p {
+    font-size: 20px;
+}
+
+.page .page-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.page .page-contact .page-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    padding: 10px 0;
+    width: 100px;
+}
+
+.page .page-contact .page-btn a {
+    text-decoration: none;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .page-contact .page-btn p {
+    padding: 5px 0;
+}
+
+.page .page-savephone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .page-savephone a {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    background-color: black;
+    width: max-content;
+    padding: 10px 50px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 5px 20px 0px;
+}
+
+.page .page-savephone a:hover {
+    scale: 1.1;
+    transition: 0.25s ease-in-out;
+}
+
+.page .page-savephone a svg {
+    font-size: 50px;
+}
+
+.page .page-savephone a p {
+    padding: 0 7px;
+}
+
+.page .page-about {
+    padding: 5vw 8vw;
+    text-align: center;
+}
+
+.page .page-about h3 {
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.page .page-about p {
+    line-height: 150%;
+}
+
+.page .page-about p span {
+    font-weight: 600;
+}
+
+.page .page-about p ul li {
+    list-style: none;
+}
+
+.page .page-boxes {
+    padding: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page .page-boxes .page-box {
+    border: 2px solid goldenrod;
+    border-radius: 7px;
+    line-height: 150%;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .page-boxes .page-box h3 {
+    padding: 7px 0;
+}
+
+.page .page-boxes .page-box ul li {
+    list-style: inside;
+}
+
+.page .page-boxes .page-box ul li span {
+    padding: 0 0 0 40px;
+}
+
+.page .page-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5vh 0;
+    background-color: black;
+}
+
+.page .page-image img {
+    width: 25%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.page .page-image span {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.page .page-form {
+    padding: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .page-form form h3 {
+    font-size: 30px;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+.page .page-form form input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.page .page-form form div input {
+    width: 50%;
+}
+
+.page .page-form form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin: 1px 0 0 0;
+}
+
+.page .page-form form button {
+    background-color: goldenrod;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.page .page-form form input:focus {
+    outline: none;
+}
+
+.page .page-form form button:hover {
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.page .page-promo {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: goldenrod;
+    color: black;
+}
+
+.page .page-promo a {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.page .page-promo a:hover {
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+@media all and (max-width: 500px) {
+    .page .page-image img {
+        width: 90%;
+    }
+}
